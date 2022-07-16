@@ -11,6 +11,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 body, html {
   height: 100%;
   line-height: 1.8;
+  scroll-behavior:smooth;
 }
 
 /*!
@@ -232,7 +233,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-teal,.w3-hover-teal:hover{color:#fff!important;background-color:#009688!important}
 .w3-yellow,.w3-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
-.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.w3-black,.w3-hover-black:hover{color:#fff!important;background-color:#0000007a!important;}
 .w3-grey,.w3-hover-grey:hover,.w3-gray,.w3-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 .w3-light-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 .w3-dark-grey,.w3-hover-dark-grey:hover,.w3-dark-gray,.w3-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
@@ -317,6 +318,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 <p style="MARGIN-LEFT: 18PX;FONT-SIZE: X-LARGE;FLOAT: LEFT;PADDING-RIGHT: 14PX;MARGIN-TOP: 8PX;">DEVELOPER TECH</p>
 <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
+      <a href="#home" class="w3-bar-item w3-button">HOME</a>
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
@@ -331,6 +333,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
@@ -353,20 +356,22 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   </div>
 </header>
 
-<!-- About Section -->
-<center>
 <div class="w3-container" style="padding:128px 16px" id="about">
   <h3 class="w3-center">ABOUT US</h3>
-<br><br>
-<h3>Get the best out of yourself</h3>
 <br>
-  <div class="w3-row-padding w3-center" style="margin-top:64px;margin-left:280px;">
+   <h3 class="w3-center">Get the best out of youreself</h3>
+<br>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-quarter">
       <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Web Developing</p>
-      <p>Learn and creat a lot of things.</p>
+      <p>Learn and create a lot of things.</p>
     </div>
-
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">practice</p>
+      <p>Practice everyday, and be a professional.</p>
+    </div>
     <div class="w3-quarter">
       <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Design</p>
@@ -374,12 +379,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     </div>
     <div class="w3-quarter">
       <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">practice</p>
-      <p>Practice everyday, and be a professional.</p>
+      <p class="w3-large">Get Opportunities</p>
+      <p>Get jobs and new business opportunities by our company</p>
     </div>
   </div>
 </div>
-</center>
 <!-- Skills Section -->
 <div class="w3-container w3-light-grey w3-padding-64">
   <div class="w3-row-padding">
@@ -393,7 +397,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       <div class="w3-grey">
         <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
       </div>
-      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Development</p>
       <div class="w3-grey">
         <div class="w3-container w3-dark-grey w3-center" style="width:95%">95%</div>
       </div>
